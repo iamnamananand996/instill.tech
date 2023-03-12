@@ -8,7 +8,7 @@ export type ValueBlockProps = {
 
 export const ValueBlock = ({ number, title, description }: ValueBlockProps) => {
   return (
-    <div className="flex flex-row gap-x-5 xl:gap-x-10">
+    <div className="mb-5 flex flex-row gap-x-5 xl:gap-x-10">
       <NumberCube
         number={number}
         width="w-10 xl:w-20"

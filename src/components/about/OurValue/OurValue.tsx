@@ -32,10 +32,14 @@ export const OurValue = ({ marginBottom }: OurValueProps) => {
         />
         <ValueBlock
           number={2}
-          title="High-performing company with shared values"
-          description="We always deliver more than expected. To achieve that, 
-            we are the optimisers obsessively chasing intrinsic efficiency 
-            and effectiveness."
+          title="Deliver more than expected"
+          description=""
+        />
+        <ValueBlock number={3} title="Communication x 3" description="" />
+        <ValueBlock
+          number={4}
+          title="Be proactive and accountable"
+          description=""
         />
       </div>
     </div>
